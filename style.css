@@ -231,18 +231,21 @@ h3{
     margin-top: 10px;
     border: outset 2px silver;
     border-radius: 8px;
-    box-shadow: 1px 1px 20px 2px black;
-    transition: background-color 1s;
+    box-shadow: 0px 0px 10px black;
+    transition: 1s;
 }
 
 .sm-btn:hover{
     background-color: #00ADB5;
-    transition: background-color 2s;
     cursor: pointer;
+    width: 100px;
+    box-shadow: 0px 0px 20px #00ADB5;
+    
 }
 .sm-btn:active{
     border: inset 2px black;
     background-color: #14FFEC;
+    box-shadow: 0px 0px 20px #14FFEC;
 }
 
 .btn{
@@ -251,18 +254,20 @@ h3{
     margin-right: 10px;
     margin-bottom: 20px;
     border: outset 2px silver;
-    box-shadow: 1px 1px 20px 2px black;
+    box-shadow: 0px 0px 10px black;
+    transition: 1s;
 }
 
 .btn:hover{
     background-color: #00ADB5;
     cursor:pointer;
-    transition: background-color 2s;
+    box-shadow: 0px 0px 20px #00ADB5;
 }
 
 .btn:active{
     border: inset 2px black;
     background-color: #14FFEC;
+    box-shadow: 0px 0px 20px #14FFEC;
 }
 
 
