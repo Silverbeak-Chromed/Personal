@@ -1,0 +1,331 @@
+body{
+    text-align: center;
+    border: 0;
+    margin: 0;
+    font-family: funnel sans, sans-serif;
+}
+
+.top-container{
+    padding-bottom:100px;
+    padding-top: 100px; 
+}
+
+p{
+   font-size: 1.1rem; 
+}
+
+.name{
+    font-size: 150px;
+    border: 0;
+    margin: 0;    
+    color: #00ADB5;
+    font-family: iceland;
+    
+
+}
+
+.name-tag{
+    font-family: funnel sans;
+    color:#EEEEEE;
+    padding-left: 30px;
+    padding-right: 30px;    
+}
+
+.hands-container{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+
+.hand-div{
+    width:50%;
+    max-width: 500px;
+}
+
+.data-hand{
+    width: 100%;   
+    
+}
+
+.robot-hand{
+    width:100%;
+    
+}
+
+.robot{
+    margin-left: -50px
+}
+
+.profile-photo {
+    height: 250px;
+    border-radius: 50%;
+    border: outset 2px #22283180;
+    margin-top: 20px;
+    box-shadow: 1px 1px 20px 2px black;
+}
+
+.intro{
+    width: 35%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 18px;
+    font-family: "funnel sans", sans-serif;    
+}
+
+
+
+h2{
+    color: #00ADB5;
+    font-size: 2rem;
+    font-weight: 300;    
+}
+
+
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    margin:10px;
+    height: auto;
+    padding: 10px;
+    max-width: 500px;    
+}
+
+
+
+.text-card{
+    width:50%;
+}
+
+.skill-image{
+    width:250px;
+    border-radius: 10px;
+    border: inset 3px #222831;
+    box-shadow: 1px 1px 20px 2px black;
+}
+
+.interests-image{
+   width:250px;
+   border-radius: 10px;
+   border: inset 3px #222831;
+box-shadow: 1px 1px 20px 2px black;
+}
+
+.book-img{
+    width: 250px;
+    border-radius: 10px;
+    border: inset 3px #222831;
+    box-shadow: 1px 1px 20px 2px black;
+}
+
+h3{
+    color: #00ADB5;
+}
+
+.skills-heading{
+    padding-top: 50px;
+    
+}
+
+
+
+.first-section{    
+    background-color:#222831;
+
+}
+
+.third-section{
+    background-color: #EEEEEE;
+    padding-bottom: 50px;
+}
+
+.fourth-section{
+    padding-bottom: 50px;
+}
+
+.footer-section{
+    background:#222831;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    color: #EEEEEE;    
+}
+
+.hr-light{
+    width:10%;
+    border: dotted #EEEEEE 10px;
+    border-bottom: none;
+}
+
+.hr-dark {
+    width: 10%;
+    border: dotted #EEEEEE 10px;
+    border-bottom: none;
+}
+
+.skills-div{
+    padding-bottom: 25px
+}
+  
+.hr-light {
+    width: 10%;
+    border: dotted white 10px;
+    border-bottom: none;    
+}
+
+.contact-p{
+    width: 35%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 18px;
+    font-family: "funnel sans", sans-serif;
+}
+
+.btn-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.btn-steam{
+    background-color: #222831;
+    transition: background-color 1s;
+    padding: 10px 20px;
+    color: #EEEEEE;
+    font-size: 25px;
+    border-radius: 10px;
+    font-family: "Funnel Sans",sans-serif;
+    border: 0px;
+        
+}
+
+.btn-li{
+    background-color: #0a66c2;
+    transition: background-color 1s;
+    padding: 10px 20px;
+    color: #EEEEEE;
+    font-size: 25px;
+    border-radius: 10px;
+    font-family: "Funnel Sans", sans-serif;
+    border: 0px;
+}
+
+.btn-gh{
+    background-color: #393E46;
+    transition: background-color 1s;
+    padding: 10px 20px;
+    color: #EEEEEE;
+    font-size: 25px;
+    border-radius: 10px;
+    font-family: "Funnel Sans", sans-serif;
+    border: 0px;
+}
+
+.sm-btn{
+    background: #EEEEEE;
+    width: 50px;
+    margin-top: 10px;
+    border: outset 2px silver;
+    border-radius: 8px;
+    box-shadow: 1px 1px 20px 2px black;
+    transition: background-color 1s;
+}
+
+.sm-btn:hover{
+    background-color: #00ADB5;
+    transition: background-color 2s;
+    cursor: pointer;
+}
+.sm-btn:active{
+    border: inset 2px black;
+    background-color: #14FFEC;
+}
+
+.btn{
+    width: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    border: outset 2px silver;
+    box-shadow: 1px 1px 20px 2px black;
+}
+
+.btn:hover{
+    background-color: #00ADB5;
+    cursor:pointer;
+    transition: background-color 2s;
+}
+
+.btn:active{
+    border: inset 2px black;
+    background-color: #14FFEC;
+}
+
+
+@media (max-width:600px) {
+    .intro {
+        width: 80%;
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-size: 18px;
+        font-family: "funnel sans", sans-serif;
+    }
+    
+    .contact-p {
+        width: 70%;
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-size: 18px;
+        font-family: "funnel sans", sans-serif;
+    }
+
+    .name {
+        font-size: 80px; 
+    }
+
+    .name-tag{
+        font-size: 1.5rem;
+    }
+
+    .text-card{
+       width: 80%; 
+    }
+
+}
+
+@media (min-width:481px) and (max-width: 1200px) {
+    .intro {
+        width: 70%;
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-size: 18px;
+        font-family: "funnel sans", sans-serif;
+    }
+
+    .contact-p {
+        width: 70%;
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-size: 18px;
+        font-family: "funnel sans", sans-serif;
+
+    }
+}
+
+.funnel-sans{
+    font-family: "Funnel Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+
+
